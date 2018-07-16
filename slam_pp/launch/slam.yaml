@@ -1,0 +1,71 @@
+# %YAML:1.0
+# WARNING: AVOID any TAB in this file, otherwise there will be error.
+# parameters for SLAM
+
+# if < 20, fps is not used in uwb.
+slam_fps: 50
+map_frame: map
+tracking_frame: base_link
+
+is_xy_valid: true
+is_z_valid: true
+is_yaw_valid: false
+
+is_v_xy_valid: false
+is_v_z_valid: false
+
+is_enable_visualization: false
+slam_result_print_freq: 1
+
+# parameters for UWB localization
+# UWB setting ====================================
+# Mobile, if /uav_id is set, will follow the /uav_id
+mobile_id: 301
+
+# Anchor
+# Changi
+anchor_list: [101, 102, 103, 104, 105, 106]
+anchor_101: [0, 0, 0]
+anchor_102: [14.6339, 0.00044865, -0.000732158]
+anchor_103: [14.7428, 25.4994, -0.0135969]
+anchor_104: [-0.020438, -1.00138, 5.29275]
+anchor_105: [-0.0852587, 26.5864, 5.25772]
+anchor_106: [17.3644, 10.056, 5.24208]
+
+
+
+
+# common filter parameters =================================
+filter_type: 'EKF_Acc'
+
+# larger value produces heavier low pass effect on z, Q * z_damping_factor
+z_damping_factor: 0.1
+# larger value reduces low pass effect on xyz
+Q_scale: 0.1
+# uwb measurement error scaling, i.e. measurement noise
+R_scale: 300
+# acceleration gaussian noise
+tao_acc_sqrt: 0.3
+# acceleration bias noise
+tao_bias_sqrt: 0.001
+
+is_initialize_with_ceres: false
+initialization_innovation_threshold: 50
+normal_innovation_threshold: 2.0
+# if both set to 0, then will use static normal_innovation_threshold
+innovation_threshold_inc_on_succ: -0.2
+innovation_threshold_inc_on_fail: 0.6
+
+# EKF parameters -----------------------------
+
+
+# UKF parameters -----------------------------
+ukf_alpha: 0.1
+ukf_beta: 2
+ukf_kappa: 0
+
+
+
+
+
+

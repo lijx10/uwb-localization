@@ -1,0 +1,44 @@
+# %YAML:1.0
+# WARNING: AVOID any TAB in this file, otherwise there will be error.
+# parameters for Time Domain Driver
+
+# will follow /uav_id if exists
+node_id: 301
+
+# RN / RCM
+operation_mode: 'RN'
+connection_interface: 'IP'
+ip_address: '192.168.0.100'
+
+
+# rcmConfiguration
+integration_index: 5
+antenna_mode: 'A'
+code_channel: 0
+echo_last_range: false
+tx_gain: 63
+
+
+# rnConfiguration
+# TDMA / ALOHA
+network_type: 'TDMA'
+autosend_range_type: 'all'
+autosend_NDB_type: 'full'
+autosend_NDB_update_interval_ms: 1000
+max_neighbor_age_ms: 999999
+do_not_range_me: false
+
+max_request_data_size: 10
+max_response_data_size: 10
+
+
+ALOHA_ACC: true
+ALOHA_min_tx_ms: 48
+ALOHA_max_tx_ms: 80
+ALOHA_is_beacon: false
+
+# relative to package time_domain
+TDMA_slotmap_file_folder: '/scripts/txt'
+
+# whether rewrite RN configuration to maintain opmode as RN after reboot
+is_rewrite_RN_config: false

@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="uwb_calibration" type="uwb_calibration_node" name="uwb_calibration" output="screen">
+    <rosparam command="load" file="$(find uwb_calibration)/launch/uwb_calibration.yaml"/>
+</node>
+
+</launch>

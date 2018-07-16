@@ -1,0 +1,12 @@
+<launch>
+
+<node pkg="slam_pp" type="slam_pp_node" name="slam_pp" output="screen">
+    <rosparam command="load" file="$(find slam_pp)/launch/mapping.yaml" ns="mapping"/>
+	<rosparam command="load" file="$(find slam_pp)/launch/slam.yaml" ns="slam"/>
+	<rosparam command="load" file="$(find slam_pp)/launch/pp.yaml" ns="pp"/>
+</node>
+
+<node pkg="tf" type="static_transform_publisher" name="base_link_laser_broadcaster" args="0 0 0 0 0 0 base_link laser 10" />
+<node pkg="tf" type="static_transform_publisher" name="world_map_broadcaster" args="0 0 0 0 0 0 world map 10" />
+
+</launch>

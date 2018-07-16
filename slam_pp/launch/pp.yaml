@@ -1,0 +1,28 @@
+# %YAML:1.0
+# WARNING: AVOID any TAB in this file, otherwise there will be error.
+# parameters for Path Planning
+
+
+planner: 'NoPlanner'
+no_planner_freq: 10
+
+global_planner_bound_min_z: 0
+global_planner_bound_max_z: 2
+
+global_planner_bound_min_x_offset: 4
+global_planner_bound_max_x_offset: 4
+global_planner_bound_min_y_offset: 4
+global_planner_bound_max_y_offset: 4
+global_planner_bound_min_z_offset: 2
+global_planner_bound_max_z_offset: 2
+
+vehicle_radius: 0.4
+traj_margin_x: 0.5
+traj_margin_y: 0.5
+traj_margin_z: 0.2
+
+global_planner_margin_x: 0.6
+global_planner_margin_y: 0.6
+global_planner_margin_z: 0.3
+global_planner_normal_runtime: 0.1
+global_planner_emergency_runtime: 0.05

@@ -1,0 +1,20 @@
+Header header
+
+uint32 nodeId
+uint8 rangeStatus
+uint8 antennaMode
+uint16 stopwatchTime
+uint32 rangeMm
+uint16 rangeErrorEstimate
+uint16 rangeVelocity
+uint8 rangeMeasurementType
+uint8 flags
+uint16 ledFlags
+uint16 noise
+uint16 vPeak
+uint16 statsNumRangeAttempts
+uint16 statsNumRangeSuccesses
+uint32 statsAgeMs
+uint32 rangeUpdateTimestampMs
+uint32 lastHeardTimestampMs
+uint32 addedToNDBTimestampMs

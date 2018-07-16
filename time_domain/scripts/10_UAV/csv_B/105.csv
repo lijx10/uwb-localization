@@ -1,0 +1,14 @@
+Slot  #,Requester    ID,Responder  ID,Pii ,Chan.,Antenna  Mode,Req.  Data,Rsp.  Data,Type,Sleep,Manual  Time  (ms),Minimum  Time  (ms)
+0,101,102,5,0,Antenna  B,1,1,Data,6,4500,0
+1,305,105,5,5,Antenna  B,1,1,Range,1,10500,0
+2,301,105,5,5,Antenna  B,1,1,Range,1,10500,0
+3,304,105,5,5,Antenna  B,1,1,Range,1,10500,0
+4,310,105,5,5,Antenna  B,1,1,Range,1,10500,0
+5,303,105,5,5,Antenna  B,1,1,Range,1,10500,0
+6,309,105,5,5,Antenna  B,1,1,Range,1,10500,0
+7,302,105,5,5,Antenna  B,1,1,Range,1,10500,0
+8,308,105,5,5,Antenna  B,1,1,Range,1,10500,0
+9,301,105,5,5,Antenna  B,1,1,Range,1,10500,0
+10,307,105,5,5,Antenna  B,1,1,Range,1,10500,0
+11,306,105,5,5,Antenna  B,1,1,Range,1,10500,0
+12,302,105,5,5,Antenna  B,1,1,Range,1,10500,0

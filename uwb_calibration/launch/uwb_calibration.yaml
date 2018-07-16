@@ -1,0 +1,24 @@
+# %YAML:1.0
+# WARNING: AVOID any TAB in this file, otherwise there will be error.
+# parameters for UWB_ANCHOR_CALIBRATION
+
+# initial guess for anchor position, NWU coordinate
+anchor_101: [0, 0, 0]
+anchor_102: [16.75, 0, 0]
+anchor_103: [17, 25.6, 0]
+anchor_104: [0, 0, 5.31]
+anchor_105: [0, 25.6, 5.25]
+anchor_106: [17, 10, 5.23]
+
+
+anchor_102_direction: [0,0,0, 1,0,0]
+anchor_103_coordinate: {z: 0}
+
+anchor_104_coordinate: {z: 5.31}
+anchor_105_coordinate: {z: 5.25}
+anchor_106_coordinate: {z: 5.23}
+
+
+is_consider_covariance: true
+is_use_cauchy_loss: true
+cauchy_loss: 10

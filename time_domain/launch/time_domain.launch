@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="time_domain" type="time_domain_node" name="time_domain" output="screen" respawn="true">
+	<rosparam command="load" file="$(find time_domain)/launch/time_domain.yaml"/>
+</node>
+
+</launch>

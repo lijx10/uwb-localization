@@ -1,0 +1,24 @@
+# %YAML:1.0
+# WARNING: AVOID any TAB in this file, otherwise there will be error.
+# parameters for Mapping, like Octomap, gridmap
+
+
+# octomap
+resolution: 0.2
+
+# filters ---
+is_enable_passthrough_filter: true
+
+is_enable_downsample_filter: true
+pd_downsample_leaf_size: 0.05
+
+is_enable_radius_filter: false
+pd_filter_radius: 0.2
+pd_filter_radius_neighbour: 15
+
+is_enable_stat_filter: true
+pd_filter_mean_k: 50
+pd_filter_stddev_mul: 1
+# filters ---
+
+is_enable_publishers: true
