@@ -3,6 +3,7 @@
 ICCA (International Conference on Control and Automation) 2018, Anchorage, USA.
 Jiaxin Li, Yingcai Bi, Kun Li, Kangli Wang, Feng Lin, Ben M. Chen
 
+[The paper is available here.](https://arxiv.org/abs/1807.10913)
 ```
 @article{li2018accurate,
       title={Accurate 3D Localization for MAV Swarms by UWB and IMU Fusion},
