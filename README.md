@@ -3,7 +3,16 @@
 ICCA (International Conference on Control and Automation) 2018, Anchorage, USA.
 Jiaxin Li, Yingcai Bi, Kun Li, Kangli Wang, Feng Lin, Ben M. Chen
 
-**The paper and more codes are comming...**
+```
+@article{li2018accurate,
+      title={Accurate 3D Localization for MAV Swarms by UWB and IMU Fusion},
+      author={Li, Jiaxin and Bi, Yingcai and Li, Kun and Wang, Kangli and Lin, Feng, and Chen, Ben M.},
+      journal={arXiv preprint arXiv:1807.10913},
+      year={2018}
+}
+```
+
+**More codes are comming...**
 
 ## Introduction
 A ROS based library to perform localization for robot swarms using Ultra Wide Band (UWB) and Inertial Measurement Unit (UWB). 
