@@ -16,7 +16,17 @@ Jiaxin Li, Yingcai Bi, Kun Li, Kangli Wang, Feng Lin, Ben M. Chen
 **More codes are comming...**
 
 ## Datasets
-1. [Indoor test with VICON ground truth.](https://drive.google.com/open?id=1dS5iMt53TOVeWWPnecTjIHguOV3qjjr3)
+#### Indoor UAV fly test with VICON ground truth
+[Link to rosbag. Provides IMU, UWB, VICON measurements](https://drive.google.com/open?id=1dS5iMt53TOVeWWPnecTjIHguOV3qjjr3)
+
+* /ref_generation/current_reference: reference sent to UAV. ~50Hz.
+* /time_domain/full_range_info: UWB raw measurements. ~80Hz.
+* /mavros/imu/rpy_acc_short: IMU raw measurements, provides roll, pitch, yaw & acceleration. ~50Hz.
+* /mavros/vicon/position: VICON ground truth, precision of 0.1cm, ~20Hz.
+
+![vicon-xy]('https://github.com/lijx10/uwb-localization/tree/master/images/vicon-xy.png')
+
+
 
 ## Introduction
 A ROS based library to perform localization for robot swarms using Ultra Wide Band (UWB) and Inertial Measurement Unit (UWB). 
