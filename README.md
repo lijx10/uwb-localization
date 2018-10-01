@@ -24,7 +24,7 @@ Jiaxin Li, Yingcai Bi, Kun Li, Kangli Wang, Feng Lin, Ben M. Chen
 * /mavros/imu/rpy_acc_short: IMU raw measurements, provides roll, pitch, yaw & acceleration. ~50Hz.
 * /mavros/vicon/position: VICON ground truth, precision of 0.1cm, ~20Hz.
 
-![vicon-xy]('https://github.com/lijx10/uwb-localization/tree/master/images/vicon-xy.png')
+![vicon-xy]('https://raw.githubusercontent.com/lijx10/uwb-localization/master/images/vicon-xy.png')
 
 
 
