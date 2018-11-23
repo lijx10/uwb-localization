@@ -1,0 +1,5 @@
+Header header
+Mission mission
+PathPlanningStatus pp_status
+bool is_reference_reached
+bool is_measurement_reached

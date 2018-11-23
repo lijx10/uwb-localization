@@ -1,0 +1,5 @@
+Header header
+bool is_reached
+bool is_target_reachable
+common_msgs/Waypoint waypoint
+geometry_msgs/Pose alternative_target_position_NWU
